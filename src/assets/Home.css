@@ -1,0 +1,45 @@
+.home {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+  background-color: #121212; /* Couleur de fond foncée, ajustez selon vos préférences */
+  padding: 20px; /* Ajoutez un padding pour l'espace autour des films */
+}
+
+.movie {
+  width: 400px;
+  margin: 10px;
+  text-align: center;
+  background-color: #1f1f1f; /* Couleur de fond pour chaque film, ajustez selon vos préférences */
+  padding: 15px; /* Ajoutez un padding pour l'espace à l'intérieur de chaque film */
+  border-radius: 8px; /* Coins arrondis pour chaque film */
+}
+
+.movie img {
+  width: 100%;
+  height: 450px;
+  border-radius: 8px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  transition: transform 0.3s ease-in-out;
+}
+
+.movie:hover img {
+  transform: scale(1.1);
+}
+
+.movie-info {
+  margin-top: 10px;
+}
+
+
+.movie-info h3 {
+  color: white; /* Couleur du texte en blanc */
+  text-decoration: none;
+}
+
+
+
+.movie-link {
+  text-decoration: none;
+  color: inherit; /* Conservez la couleur d'origine du texte du lien */
+}

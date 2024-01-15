@@ -1,0 +1,12 @@
+.film {
+    background-color: #121212;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh; 
+    margin: 0;
+}
+
+.w-50 {
+    width: 50%;
+}
